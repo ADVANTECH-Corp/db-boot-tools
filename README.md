@@ -1,9 +1,23 @@
 # Bootloaders for Advantech products
 
-The bootloader binaries are revised from [96Boards](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/16.09/).
+The bootloader binaries are revised from [96Boards](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/).
 
-The difference between ours & 96Boards.
+The difference between ours & 96Boards:
+
+**[advantech_bootloader_emmc_linux-79]**
+
 - Partition table which supports OTA feature
+- New CDT binary
+- New flash script
+- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability
+
+**[advantech_bootloader_sd_linux-79]**
+
+- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0+sdboot) for bootup stability
+
+**[advantech_bootloader_emmc_android-79]**
+
+- Partition table which supports CDT binary (from aosp-79)
 - New CDT binary
 - New flash script
 - [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability
