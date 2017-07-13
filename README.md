@@ -4,23 +4,27 @@ The bootloader binaries are revised from [96Boards](https://builds.96boards.org/
 
 The difference between ours & 96Boards:
 
-**[advantech_bootloader_emmc_linux-79]**
-
-- Partition table which supports OTA feature
-- New CDT binary
-- New flash script
-- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability
-
-**[advantech_bootloader_sd_linux-79]**
-
-- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0+sdboot) for bootup stability
-
 **[advantech_bootloader_emmc_android-79]**
 
 - Partition table which supports CDT binary (from aosp-79)
 - New CDT binary
 - New flash script
-- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability
+- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability (commit *cd13e9c6ff3b65a5e748652423429c2d225140c3*)
+
+**[advantech_bootloader_emmc_linux-79]**
+
+- Partition table which supports OTA feature
+- New CDT binary
+- New flash script
+- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability (commit *cd13e9c6ff3b65a5e748652423429c2d225140c3*)
+
+**[advantech_bootloader_sd_linux-79]**
+
+- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0+sdboot) for bootup stability (commit *dd897cf35a71626cae9078b3c86cac083288ed42*)
+
+**[advantech_sdcard_rescue-79]**
+
+- [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0+sdboot) for bootup stability & empty MBR (commit *7eaa251dd694a5288e3da879c9bd500a3de8338b*)
 
 ## How to generate customzied gpt_both0.bin
 
