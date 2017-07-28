@@ -21,7 +21,9 @@ The difference between ours & 96Boards:
 
 **[advantech_bootloader_sd_linux-79]**
 
+- New CDT binary
 - [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0+sdboot) for bootup stability (commit *dd897cf35a71626cae9078b3c86cac083288ed42*)
+- Default cache image
 
 **[advantech_sdcard_rescue-79]**
 
