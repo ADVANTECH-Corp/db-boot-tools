@@ -17,6 +17,7 @@ The difference between ours & 96Boards:
 - New CDT binary
 - New flash script
 - [Revised bootloader (LK)](https://github.com/ADVANTECH-Corp/lk/tree/release/LA.BR.1.2.7-03810-8x16.0) for bootup stability (commit *cd13e9c6ff3b65a5e748652423429c2d225140c3*)
+- Default cache image
 
 **[advantech_bootloader_sd_linux-79]**
 
